@@ -22,6 +22,7 @@ namespace TestApp
             int b = 0;
             int a = 5 / b;
             int c = 0 + 1;
+            int abt = b;
         }
     }
 }
