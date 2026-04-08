@@ -30,7 +30,7 @@ jobs:
 
       - name: Deploy to local folder
         run: |
-          $dest = "C:\Deploy\TestApp"
+          $dest = "D:\Learning\Development\GitHub\Reppo\Deploy"
           if (!(Test-Path $dest)) { New-Item -ItemType Directory -Path $dest }
           Copy-Item -Path "TestApp/bin/Release/*" -Destination $dest -Recurse -Force
           Write-Host "Deployed to $dest"
